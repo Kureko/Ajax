@@ -13,9 +13,11 @@ function fetchChuckJSON() {
         const chuckHtml = 
             <div>
               <img src="https://assets.chucknorris.host/img/avatar/chuck-norris.png" />
-              <p>Chuck Norris got lost in the wilderness with Les Stroud and Bear Grylls. 
-                  After 30 days only Chuck came out alive and had gained 20 pounds. 
-                  Les and Bears bodies were never founds.</p>            
+              <p>
+                 Chuck Norris got lost in the wilderness with Les Stroud and Bear Grylls. 
+                 After 30 days only Chuck came out alive and had gained 20 pounds. 
+                 Les and Bears bodies were never founds.
+              </p>            
             </div>;
         document.querySelector('#chuck').innerHTML = chuckHtml;
       });
