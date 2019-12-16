@@ -14,9 +14,12 @@ function fetchChuckJSON() {
             <div>
               <img src="https://assets.chucknorris.host/img/avatar/chuck-norris.png" />
               <p>
-                Chuck Norris got lost in the wilderness with Les Stroud and Bear Grylls. 
-                After 30 days only Chuck came out alive and had gained 20 pounds. 
-                Les and Bears bodies were never founds.
+                {'categories'=[],
+              "created_at"="2016-05-01 10:51:41.584544",
+              "icon_url"="https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+              "id"="PosCYntpT26EsPNRKuuDmQ","updated_at":"2017-12-29 19:52:23.239841",
+              "url"="https://api.chucknorris.io/jokes/PosCYntpT26EsPNRKuuDmQ",
+              "value"="Thanksgiving was not made to thank the indians, it was made to thank Chuck Norris that he didnt kill them when they whizzed on his lawn."}
               </p>            
             </div>;
         document.querySelector('#chuck').innerHTML = chuckHtml;
